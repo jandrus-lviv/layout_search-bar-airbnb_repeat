@@ -1,13 +1,13 @@
 @font-face {
   font-family: Avenir;
-  src: url(fonts\Avenir-Book.ttf);
+  src: url(fonts/Avenir-Book.ttf);
   font-style: normal;
   font-weight: 300;
 }
 
 @font-face {
   font-family: Avenir;
-  src: url(fonts\Avenir-Heavy.ttf);
+  src: url(fonts/Avenir-Heavy.ttf);
   font-style: normal;
   font-weight: 800;
 }
@@ -16,7 +16,7 @@
   box-sizing: border-box;
   border: 0;
  
-  font-family: Avenir, sans-serif;
+  font-family: "Avenir", sans-serif;
   font-weight: 300;
 }
 
@@ -96,7 +96,7 @@
 
   background-color: transparent;
 
-  font-family: Avenir, sans-serif;
+  font-family: "Avenir", sans-serif;
   font-size: 16px;
   line-height: 22px;
 }
