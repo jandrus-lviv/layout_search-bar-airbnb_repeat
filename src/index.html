@@ -11,6 +11,49 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>Search bar airbnb</h1>
+    <form
+      class="bar"
+      data-qa="big"
+      action="https://www.w3schools.com/action_page.php"
+      method="post"
+    >
+      <button type="submit" class="button">
+        <img
+          src="images\Search.svg"
+          alt="Submit"
+          class="button--image"
+        >
+      </button>
+
+      <input
+        type="text"
+        placeholder="Try &quot;Los Angeles&quot;"
+        name="input"
+        class="input"
+        data-qa="keypress"
+      >
+    </form>
+
+    <form
+      class="bar bar--small"
+      data-qa="small"
+      action="https://www.w3schools.com/action_page.php"
+      method="post"
+    >
+      <button type="submit" class="button button--small">
+        <img
+          src="images\Search.svg"
+          alt="Submit"
+          class="button--image button--image_small"
+        >
+      </button>
+
+      <input
+        type="text"
+        placeholder="Try &quot;Los Angeles&quot;"
+        name="input"
+        class="input input--small"
+      >
+    </form>
   </body>
 </html>
