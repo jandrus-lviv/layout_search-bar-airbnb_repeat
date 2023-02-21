@@ -64,11 +64,10 @@
 }
 
 .input {
-  height: 22px;
+  height: 70px;
   width: calc(100% - 62px);
 
   position: absolute;
-  top: 25px;
   left: 62px;
 
   margin: 0;
@@ -84,11 +83,10 @@
 }
 
 .input--small {
-  height: 20px;
+  height: 42px;
   width: calc(100% - 33px);
 
   left: 33px;
-  top: 12px;
 
   font-size: 14px;
   font-weight: 400;
