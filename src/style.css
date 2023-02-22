@@ -65,7 +65,7 @@
 
 .input {
   height: 70px;
-  width: calc(100% - 62px);
+  width: 100%;
 
   position: absolute;
   left: 62px;
@@ -84,7 +84,7 @@
 
 .input--small {
   height: 42px;
-  width: calc(100% - 33px);
+  width: 100%;
 
   left: 33px;
 
